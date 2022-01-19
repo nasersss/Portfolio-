@@ -1,6 +1,6 @@
 const form = document.getElementById('form');
 var body = document.getElementById('body');
-var link =document.querySelectorAll('a');
+var link =document.querySelectorAll('.Social a');
 let errorMessage = document.getElementById("error");
 let successMessage = document.getElementById("success");
 
@@ -11,7 +11,7 @@ function changBgDark(){
     body.style.background ="#000";
     body.style.color="#FFF";
     for (i = 0; i < link.length; i++) {
-        link[i].style.color = "#fff";
+        link[i].style.color = "#fd545f";
         }
 
 
@@ -124,6 +124,7 @@ const calling = image =>{
 
     document.getElementById("show-img").setAttribute("src",image.getAttribute("src"));
     Modal.style.display="flex";
+    
 
 }
 

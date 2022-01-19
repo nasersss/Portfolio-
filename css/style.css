@@ -72,9 +72,9 @@ nav ul{
     display: flex;
 }
 nav ul li a{
-    font-family: myriad,pro regular;
+
     color: #fff;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 700;
     padding: 15px;
 }
@@ -489,7 +489,7 @@ header{
 }
 
 .Modal img{
-    width: 400px;
+    width: 300px;
 }
 .Modal span{
     color: #fff;
@@ -500,6 +500,7 @@ header{
     color: brown;
     cursor:pointer
 }
+
 /*************Contact us*******************/
 /*************Contact us*******************/
 .contact-us{
@@ -580,6 +581,7 @@ button:hover{
     transition: 0.5s;
 }
 .Social-media .Social{
+    min-height: 150px;
     margin-top: 20px;
     width: 100%;
     display: flex;
