@@ -477,7 +477,7 @@ header{
 /* Modal  */
 
 .Modal{
-
+    left: 0%;
     position: absolute;
     top: 0%;
     width: 100vw;
