@@ -2,36 +2,8 @@
 <%- include('Template/header'); -%>
 
 <body id="body">
-    <nav class="main-Bg">
-        <!-- logo -->
-        <div class="Mode">
-            <button onclick=" changBgDark()"></button>
-            <button onclick=" changBgWhite()" class="light"></button>
-        </div>
-
-        <div class="togle-bar" >
-            <div class="icon" onclick="myFunction()">
-               <span></span>
-               <span></span>
-                <span></span>
-            </div>
-            <div class="brand">
-               
-                <h3><a href="#" class="logo">Al-Ghaith</a>
-                </h3>
-            </div>
-        </div>
-        <!-- navbar -->
-
-        <ul>
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Services">Services</a></li>
-            <li><a href="#Contact">Contact</a></li>
-        </ul>
-          <!-- navbar -->
-    </nav>
     
+<%- include('Template/navbar'); -%>
     <header>
         <!-- navigation -->
        
@@ -71,19 +43,19 @@
 
               <!-- My skills -->
 
-            <div class="progress-bar">
+            <div class="progress-bar-pr">
     
                 <h3 class="title">My skills</h3>
     
-                <div class="progress">
+                <div class="progress-p">
                     <h3>Front End Developer <span>80%</span></h3>
                     <div class="bar"><span></span></div>
                 </div>
-                <div class="progress">
+                <div class="progress-p">
                     <h3>Trainer <span>70%</span></h3>
                     <div class="bar"><span></span></div>
                 </div>
-                <div class="progress">
+                <div class="progress-p">
                     <h3>Desk to application<span>60%</span></h3>
                     <div class="bar"><span></span></div>
                 </div>

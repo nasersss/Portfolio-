@@ -11,7 +11,24 @@ body{
     background-color: #d1cdcd;
 }
 
-
+.mt-10{
+    margin-top: 10px;
+}
+.mb-10{
+margin-bottom: 10px;
+}
+.mt-5{
+    margin-top: 5px;
+}
+.mb-5{
+margin-bottom: 5px;
+}
+.w-100{
+    width: 100%;
+}
+.p{
+    padding: 10px;
+}
 ul{
     list-style: none;
 }
@@ -47,7 +64,7 @@ nav{
 nav .Mode{
     position:absolute;
     top: 2%;
-    left: 50%;
+    left: 90%;
 }
 nav .Mode button{
     height: 30px;
@@ -83,6 +100,9 @@ nav ul li a:hover{
     color:#fff;
     transition:  0.5s all;
 }
+.ml-auto{
+    margin-left: auto;
+}
 .logo{
     color:#000000;
     font-size: 22px;
@@ -110,7 +130,7 @@ nav ul li a:hover{
 nav .Mode{
     position: absolute;
     top: 15%;
-    left: 70%;
+    left: 80%;
     }
     nav ul{
         width: 100%;
@@ -121,6 +141,14 @@ nav .Mode{
  @media(max-width:667px){
     nav{
      height: 100px;
+    }
+    .login{
+        position: absolute;
+        top:50%;
+        left:70%;
+    }
+    .login ul li {
+        display: block;
     }
 }
 
@@ -264,7 +292,7 @@ header{
     padding:.5rem 0;
     text-transform: capitalize;
 }
-.about .progress-bar{
+.about .progress-bar-pr{
     width:30%;
 }
 .about .presonal-info{
@@ -276,7 +304,7 @@ header{
 /********media*********/
 
 @media(max-width:991px){
-    .about .progress-bar{
+    .about .progress-bar-pr-pr{
         width:100%;
     }
     .about .presonal-info{
@@ -285,38 +313,38 @@ header{
     
 }
 
-.about .row .progress-bar .progress{
+.about .row .progress-bar-pr .progress-p{
     padding:1rem 0;
 }
 
-.about .row .progress-bar .progress h3{
+.about .row .progress-bar-pr .progress-p h3{
     display: flex;
     justify-content: space-between;
 }
 
-.about .row .progress-bar .progress .bar{
+.about .row .progress-bar-pr .progress-p .bar{
     height:10px ;
     width:100%;
     border: 3px solid #505050;
     border-radius: 25px;
 } 
 
-.about .row .progress-bar .progress .bar span{
+.about .row .progress-bar-pr .progress-p .bar span{
     display: block;
     background:#505050;
     border-radius: 25px;
     height: 100%;
 }
 
-.about .row .progress-bar .progress:nth-child(2) .bar span{
+.about .row .progress-bar-pr .progress-p:nth-child(2) .bar span{
     width:85%;
 }
 
-.about .row .progress-bar .progress:nth-child(3) .bar span{
+.about .row .progress-bar-pr .progress-p:nth-child(3) .bar span{
     width:70%;
 }
 
-.about .row .progress-bar .progress:nth-child(4) .bar span{
+.about .row .progress-bar-pr .progress-p:nth-child(4) .bar span{
     width:70%;
 }
 .about .row .presonal-info .box-container{
@@ -622,6 +650,7 @@ button:hover{
 /*******Footer********/
 /*******Footer********/
 footer{
+    margin-top: 20px;
     background-color: #7d7d7d;
     padding: 10px;
 }

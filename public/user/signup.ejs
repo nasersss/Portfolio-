@@ -1,0 +1,37 @@
+<%- include('../Template/header') -%>
+<%- include('../Template/navbar') -%>
+<div class="container">
+    <div class="row mt-4">
+        <div class="col-md-9 offset-md-3">
+            <h1 class="display-4">Sign up </h1>
+            <hr>
+       
+            <%- include('../Template/flashMessages') -%>     
+            
+            <form  class="mt-10" action="/users/signup" method="post">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input class="mt-5 mb-5 p w-100"  type="text" name="email" id="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input class="mt-5 mb-5 p w-100" type="password" name="password" id="password" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="confirm_password">Confirm Password</label>
+                    <input class="mt-5 mb-5 p w-100" type="password" name="confirm_password" id="confirm_password" class="form-control">
+                </div>
+
+
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary"> Signup</button>
+                    </div>
+            </form>
+            
+        </div>
+    </div>
+</div>
+
+    
+<%- include('../Template/footer') -%>
